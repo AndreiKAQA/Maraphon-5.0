@@ -1,0 +1,39 @@
+.navigation {
+  display: block;
+  background-image: url("/images/service-bgi.png");    
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.about-us {
+  background-color: #E5E5E5;
+}
+
+.statistic {
+  background-color: #8D7370;
+}
+
+.our-works {
+  background-color: #E5E5E5;
+}
+
+.command {
+  background-color: #E2C4BA;
+}
+
+.how-do-we-work {
+  background-color: #E2C4BA;
+}
+
+.feedbacks {
+  background-color: #E2C4BA;
+}
+
+.request {
+  background-color: #8D7370;
+}
+
+footer {
+  background-color: #E2C4BA;
+}
