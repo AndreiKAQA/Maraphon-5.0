@@ -1,39 +1,123 @@
-.navigation {
-  display: block;
+@font-face {
+  font-family: 'Montserrat';
+  src:url(/fonts/Montserrat-Regular.ttf);
+  font-weight: 400; 
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src:url(/fonts/Montserrat-Medium.ttf);
+  font-weight: 500; 
+  font-style: normal;
+  font-display: swap;
+} 
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #533738;
+  background: #E5E5E5;
+  line-height: 30px;
+  font-size: 18px;
+  /* display: block; */
   background-image: url("/images/service-bgi.png");    
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
   background-repeat: no-repeat;
-  height: 600px;
+  width: 1416px;
+  height: 715px;
 }
 
-.about-us {
+.about {
   background-color: #E5E5E5;
 }
 
-.statistic {
+.advantages {
   background-color: #8D7370;
 }
 
-.our-works {
+.page-header {
+
+}
+.promo {
+}
+
+.main-heading {
+  line-height: 62px;
+  font-size: 50px;
+}
+
+.promo-description {
+  
+  line-height: 18px;
+  font-size: 30px;
+
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #533738;
+  display: block;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 20px;
+  border: 2px solid #CC8B86;
+  background-color: #CC8B86;
+  width: 310px;
+  height: 74px;
+  text-align: center;
+  line-height: 74px;
+  text-decoration: none;
+
+}
+
+.section-heading {
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.text-wrap {
+    
+}
+
+.works {
   background-color: #E5E5E5;
 }
 
-.command {
+.works-heading {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 30px;
+}
+
+.works-text {
+
+
+}
+
+.team {
   background-color: #E2C4BA;
 }
 
-.how-do-we-work {
-  background-color: #E2C4BA;
+
+.team-item {
+
 }
 
-.feedbacks {
-  background-color: #E2C4BA;
-}
-
-.request {
+.form {
   background-color: #8D7370;
 }
 
-footer {
-  background-color: #E2C4BA;
+.form-text {
+  
 }
+
+.submit-button {
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 20px;
+  background-color: #CC8B86;
+}
+
